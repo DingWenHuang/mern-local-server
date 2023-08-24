@@ -1,0 +1,54 @@
+[
+  {
+    "_id": {
+      "$oid": "64b55a5aab63ad7d4005abe5"
+    },
+    "username": "teacher1",
+    "email": "teacher1@test.com",
+    "password": "$2b$12$09n8eZNBk2Gp.TmmuVtOCusiHR4vLuOZ/GMBGNoY7X94lPT1TAftW",
+    "role": "instructor",
+    "date": {
+      "$date": "2023-07-17T15:12:26.938Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64b55abbab63ad7d4005abff"
+    },
+    "username": "teacher2",
+    "email": "teacher2@test.com",
+    "password": "$2b$12$Gm.ChfFqwwYP0qs8tSGcCO4fV.WY4ICTCKcHzwDql29ydpGyXGwRy",
+    "role": "instructor",
+    "date": {
+      "$date": "2023-07-17T15:14:03.323Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64b55b6aab63ad7d4005ac19"
+    },
+    "username": "student1",
+    "email": "student1@test.com",
+    "password": "$2b$12$fgp0N3I7xxiYyI5lsv4uT.i0WAhsolEAxXmfI/jo9VELfJvlOd16G",
+    "role": "student",
+    "date": {
+      "$date": "2023-07-17T15:16:58.425Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64b55ba8ab63ad7d4005ac43"
+    },
+    "username": "student2",
+    "email": "student2@test.com",
+    "password": "$2b$12$nkwwIg22GNKBjOPyvF.BYuY0eMvsRS8CkCblRsH.8uhkaocxZICQy",
+    "role": "student",
+    "date": {
+      "$date": "2023-07-17T15:18:00.104Z"
+    },
+    "__v": 0
+  }
+]

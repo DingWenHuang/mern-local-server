@@ -1,0 +1,15 @@
+[
+  {
+    "_id": {
+      "$oid": "64b55a5aab63ad7d4005abe5"
+    },
+    "username": "teacher1",
+    "email": "teacher1@test.com",
+    "password": "$2b$12$09n8eZNBk2Gp.TmmuVtOCusiHR4vLuOZ/GMBGNoY7X94lPT1TAftW",
+    "role": "instructor",
+    "date": {
+      "$date": "2023-07-17T15:12:26.938Z"
+    },
+    "__v": 0
+  }
+]

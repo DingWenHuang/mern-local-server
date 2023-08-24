@@ -1,0 +1,110 @@
+[
+  {
+    "_id": {
+      "$oid": "64b55a7cab63ad7d4005abe9"
+    },
+    "title": "2023登山課程",
+    "description": "2023登山課程，親近自然，強身健體",
+    "price": 6800,
+    "instructor": {
+      "$oid": "64b55a5aab63ad7d4005abe5"
+    },
+    "students": [
+      {
+        "$oid": "64b4071eeafc6ecb2d5d52ee"
+      }
+    ],
+    "studentLength": 1,
+    "date": {
+      "$date": "2023-07-17T15:13:00.561Z"
+    },
+    "__v": 2
+  },
+  {
+    "_id": {
+      "$oid": "64b55aaaab63ad7d4005abf9"
+    },
+    "title": "2023釣魚課程",
+    "description": "2023釣魚課程，天才小釣手教你如何釣魚",
+    "price": 5900,
+    "instructor": {
+      "$oid": "64b55a5aab63ad7d4005abe5"
+    },
+    "students": [
+      {
+        "$oid": "64b55ba8ab63ad7d4005ac43"
+      }
+    ],
+    "studentLength": 1,
+    "date": {
+      "$date": "2023-07-17T15:13:46.220Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "64b55ae2ab63ad7d4005ac03"
+    },
+    "title": "2023日文課程",
+    "description": "2023日文課程，從0到1的基礎日文課程",
+    "price": 2300,
+    "instructor": {
+      "$oid": "64b55abbab63ad7d4005abff"
+    },
+    "students": [
+      {
+        "$oid": "64b55b6aab63ad7d4005ac19"
+      }
+    ],
+    "studentLength": 1,
+    "date": {
+      "$date": "2023-07-17T15:14:42.613Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "64b55b09ab63ad7d4005ac09"
+    },
+    "title": "2023英語會話",
+    "description": "2023英語會話，from zero to oreo",
+    "price": 7400,
+    "instructor": {
+      "$oid": "64b55abbab63ad7d4005abff"
+    },
+    "students": [
+      {
+        "$oid": "64c20b5919d666e41673e97b"
+      },
+      {
+        "$oid": "64b4071eeafc6ecb2d5d52ee"
+      }
+    ],
+    "studentLength": 2,
+    "date": {
+      "$date": "2023-07-17T15:15:21.147Z"
+    },
+    "__v": 2
+  },
+  {
+    "_id": {
+      "$oid": "64b80104832a247b5afd6640"
+    },
+    "title": "2022滑雪課程",
+    "description": "想像力就是你的超能力，一起在台灣想像滑雪的樣子吧!",
+    "price": 1000,
+    "instructor": {
+      "$oid": "64b55a5aab63ad7d4005abe5"
+    },
+    "students": [
+      {
+        "$oid": "64b55b6aab63ad7d4005ac19"
+      }
+    ],
+    "studentLength": 1,
+    "date": {
+      "$date": "2023-07-19T15:28:04.963Z"
+    },
+    "__v": 1
+  }
+]
