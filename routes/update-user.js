@@ -4,6 +4,8 @@ const changePasswordValidation =
   require("../validation").changePasswordValidation;
 const User = require("../models").user;
 const bcrypt = require("bcrypt");
+const { use } = require("chai");
+const e = require("express");
 
 router.get("/", (req, res, next) => {
   console.log("we are in update-user route...");
@@ -33,8 +35,11 @@ router.patch("/changeInfo/:_id", async (req, res) => {
       return res.status(400).send("信箱已被其他使用者註冊過，請嘗試另一個信箱");
     }
 
-    foundUserByEmail.comparePassword(password, async (err, isMatch) => {
-      if (err) return res.status(500).send(err);
+    foundUser.comparePassword(password, async (err, isMatch) => {
+      if (err) {
+        console.log(err);
+        return res.status(500).send(err);
+      }
 
       if (isMatch) {
         let updatedUser = await User.findOneAndUpdate(

@@ -46,3 +46,5 @@ app.listen(8080, () => {
 // app.listen(port, () => {
 //   console.log("Sever running on port" + port);
 // });
+
+module.exports = app;

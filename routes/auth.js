@@ -3,6 +3,7 @@ const registerValidation = require("../validation").registerValidation;
 const loginValidation = require("../validation").loginValidation;
 const updateUserValidation = require("../validation").updateUserValidation;
 const User = require("../models").user;
+const e = require("express");
 const jwt = require("jsonwebtoken");
 
 router.get("/test", (req, res) => {
@@ -12,7 +13,9 @@ router.get("/test", (req, res) => {
 // 註冊使用者
 router.post("/register", async (req, res) => {
   let { error } = registerValidation(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
+  if (error) {
+    return res.status(400).send(error.details[0].message);
+  }
 
   let { username, email, password, role } = req.body;
   let foundEmail = await User.findOne({ email }).exec();
